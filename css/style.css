@@ -1,0 +1,216 @@
+/* css reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+/* header {
+    background-color: aqua;
+    padding: 10px 0;
+} */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rectangle_header {
+    background-color: lightcoral;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+
+
+/* PADDING SECTION */
+/* section {
+    padding: 30px 0;
+} */
+
+/* JUMBOTRON/RETTANGOLO ROSA */
+.jumbotron {
+    background-color: blue;
+}
+
+.rectangle_pink {
+    width: 900px;
+    height: 300px;
+    background-color: pink;
+    margin: auto;
+}
+
+/* SECTION BACKGROUND WHITE */
+.background_white {
+    background-color: white;
+}
+
+.rectangle_red {
+    width: 60%;
+    height: 400px;
+    background-color: red;
+}
+
+.rectangle_purple {
+    width: 40%;
+    height: 400px;
+    background-color: purple;
+}
+
+/* SECTION BACKGROUND GREY */
+.background_grey {
+    background-color: gray;
+}
+
+#reverse {
+    flex-direction: row-reverse;
+}
+
+/* SECTION GREY/RECTANGLE GREEN */
+.rectangle_green {
+    height: 600px;
+    width: 100%;
+    background-color: green;
+}
+
+footer {
+    background-color: black;
+}
+
+/* FOOTER FIRST SECTION */
+.background_footer {
+    padding: 5px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.rectangle_orange {
+    height: 500px;
+    background-color: orange;
+    flex-grow: 2;
+}
+
+.rectangle_yellow {
+    height: 500px;
+    background-color: yellow;
+    border: 1px solid rebeccapurple;
+    flex-grow: 1;
+}
+
+/* FOOTER SECOND SECTION */
+.rectangle_footer_second {
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.rectangle_footer {
+    height: 50px;
+    background-color: aliceblue;
+    justify-content: space-between;
+    align-content: center;
+}
+
+/* ********************************************************************** */
+
+.white {
+    background-color: white;
+}
+
+.black {
+    background-color: black;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.blue {
+    background-color: #255EE9;
+}
+
+.violet {
+    background-color: violet;
+}
+
+.yellow {
+    background-color: yellowgreen;
+}
+
+.pink {
+    background-color: palevioletred;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.azure {
+    background-color: aqua;
+}
+
+.red {
+    background-color: red;
+}
+
+.h-80 {
+    height: 80px;
+}
+
+.h-120 {
+    height: 120px;
+}
+
+.h-200 {
+    height: 200px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.flex-row{
+    display: flex;
+}
+
+.padding10-0{
+    padding: 10px 0;
+}
+
+.padding30-0{
+    padding: 30px 0;
+}
+
+.padding20-0{
+    padding: 20px 0;
+}
+
+.container-50{
+    width: 50%;
+    margin: auto;
+}
+
+.container-60{
+    width: 60%;
+    margin: auto;
+}
+
+.basis-25{
+    flex-basis: 25%;
+}
+
+.basis-40{
+    flex-basis: 40%;
+}
+
+.basis-60{
+    flex-basis: 60%;
+}
+
+.basis1-3{
+    flex-basis: calc( 100% / 3 );
+}
+
+.basis2-3{
+    flex-basis: calc( ( 100% / 3 ) * 2 );
+}
